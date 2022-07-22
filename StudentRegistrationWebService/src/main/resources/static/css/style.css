@@ -1,0 +1,75 @@
+
+.header {
+	min-height: 100vh;
+	width : 100%;
+	background-image: linear-gradient(rgba(2,9,10,0.5), rgba(2,9,10,0.5)), url(./bgimage.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 4%;
+}
+
+nav a {
+  font-size: x-large;
+  color: #ffff;
+}
+
+nav a:hover{
+  color: #ffff;
+}
+
+.text-box {
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 55px;
+  
+}
+
+.text-box p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.text-box a {
+  font-size: 14px;
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  padding: 10px 40px;
+  border: 1px solid #ffff;
+  margin-top: 30px;
+}
+
+.text-box a:hover {
+  background: #0ecbc7;
+  border: 1px solid #0ecbc7;
+  transition: .5s;
+}
+
+
+#studentFormAndTableSection{
+	padding-top: 40px;	
+}
+@media (max-width: 660px) {
+  .text-box h1 {
+    font-size: 32px;
+  }
+  
+  .text-box p {
+  font-size: 12px;
+  }
+}
